@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"st_led_test01_20261012\startup_stm32f103xb.o"
+"st_led_test01_20261012\main.o"
+"st_led_test01_20261012\gpio.o"
+"st_led_test01_20261012\stm32f1xx_it.o"
+"st_led_test01_20261012\stm32f1xx_hal_msp.o"
+"st_led_test01_20261012\stm32f1xx_hal_gpio_ex.o"
+"st_led_test01_20261012\stm32f1xx_hal.o"
+"st_led_test01_20261012\stm32f1xx_hal_rcc.o"
+"st_led_test01_20261012\stm32f1xx_hal_rcc_ex.o"
+"st_led_test01_20261012\stm32f1xx_hal_gpio.o"
+"st_led_test01_20261012\stm32f1xx_hal_dma.o"
+"st_led_test01_20261012\stm32f1xx_hal_cortex.o"
+"st_led_test01_20261012\stm32f1xx_hal_pwr.o"
+"st_led_test01_20261012\stm32f1xx_hal_flash.o"
+"st_led_test01_20261012\stm32f1xx_hal_flash_ex.o"
+"st_led_test01_20261012\stm32f1xx_hal_exti.o"
+"st_led_test01_20261012\system_stm32f1xx.o"
+--strict --scatter "ST_LED_test01_20261012\ST_LED_test01_20261012.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ST_LED_test01_20261012.map" -o ST_LED_test01_20261012\ST_LED_test01_20261012.axf

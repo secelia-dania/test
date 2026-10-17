@@ -1,0 +1,7 @@
+# Keil MDK 编译产物 / 本机文件
+MDK-ARM/ST_LED_test01_20261012/
+MDK-ARM/*.uvguix.*
+*.bak
+JLinkLog.txt
+Objects/
+Listings/
